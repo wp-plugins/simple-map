@@ -45,8 +45,7 @@ SimpleMap.prototype.display = function(element, pos, zoom) {
         );
         $(a).html(img);
         $(element).html(a);
-        $(element).css('max-width', '100%');
-        $(element).css('height', 'auto');
+        $(element).addClass('staticmap');
     }
 }
 
