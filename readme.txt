@@ -1,10 +1,10 @@
-=== Simple Map ===
+=== Simple Google Map ===
 Contributors: miyauchi
 Donate link: http://wpist.me/
 Tags: widget
 Requires at least: 3.3
 Tested up to: 3.8
-Stable tag: 1.3.0
+Stable tag: 1.5.0
 
 Easy way to embed google map(s).
 
@@ -53,6 +53,8 @@ Please contact to me.
 
 * [Takayuki Miyauchi](http://firegoby.jp/)
 * [Zoltán Balogh](http://birdcreation.com/)
+* [Takanobu Watanabe](https://github.com/tknv)
+* [Shinichi Nishikawa](http://th-daily.shinichi.me/)
 
 == Installation ==
 
@@ -94,6 +96,13 @@ You can use simple html as the tooltip content.
 3. Mobile Support. (Google static map)
 
 == Changelog ==
+
+= 1.5.0 =
+* Rename plugin
+* enable ssl source of google map api js
+
+= 1.4.0 =
+* change URL match pattern.
 
 = 1.3.0 =
 * Update gmaps.js to 0.4.9.
